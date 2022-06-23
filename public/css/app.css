@@ -30,6 +30,9 @@ ul li a {
 ul li a:hover {
   color: #1278f9;
 }
+ul li a.active {
+  color: #1278f9;
+}
 
 footer {
   width: 100%;
