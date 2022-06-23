@@ -8,7 +8,7 @@
             <a  href="http://127.0.0.1:8000/about">about</a>
         </li>
         <li >
-            <a  href="#">shop</a>
+            <a  href="http://127.0.0.1:8000/shop">shop</a>
         </li>
 
       </ul>

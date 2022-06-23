@@ -96,3 +96,24 @@ button {
   text-transform: uppercase;
   color: white;
 }
+
+.box {
+  margin: 20px 10px;
+  width: calc(16.6666666667% - 20px);
+}
+.box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.box img {
+  width: 100%;
+}
+.box h2,
+.box h3 {
+  margin: 10px;
+  color: gray;
+}
+
+.home-container {
+  background-color: rgb(0, 0, 0);
+}

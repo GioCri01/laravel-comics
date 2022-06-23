@@ -14,9 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view("partials.home");
+
+    $data = config("comics");
+
+    return view("partials.home",["comics"=>$data]);
 })->name("home");
 
 Route::get('/about', function () {
     return view("partials.about");
 })->name("about");
+
+Route::get('/shop', function () {
+    return view("partials.shop");
+})->name("shop");
